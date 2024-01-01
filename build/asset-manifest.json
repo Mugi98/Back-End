@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8f712f3.css",
+    "main.js": "/static/js/main.1385db72.js",
+    "static/js/787.76dd7dcb.chunk.js": "/static/js/787.76dd7dcb.chunk.js",
+    "static/media/emptyCart.jpg": "/static/media/emptyCart.0698b8d5155c8ad04288.jpg",
+    "static/media/404_error.png": "/static/media/404_error.d358653ad7985010a5c8.png",
+    "static/media/Y-N E-commerce.jpg": "/static/media/Y-N E-commerce.94ebaa05de7a2bef5cba.jpg",
+    "index.html": "/index.html",
+    "main.e8f712f3.css.map": "/static/css/main.e8f712f3.css.map",
+    "main.1385db72.js.map": "/static/js/main.1385db72.js.map",
+    "787.76dd7dcb.chunk.js.map": "/static/js/787.76dd7dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8f712f3.css",
+    "static/js/main.1385db72.js"
+  ]
+}
