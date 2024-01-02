@@ -23,9 +23,6 @@ const cartRouter = require("./routes/Cart");
 const orderRouter = require("./routes/Order");
 const paymentRouter = require("./routes/Payment");
 const wishlistRouter = require("./routes/Wishlist");
-server.get("*", (req, res) =>
-  res.sendFile(path.resolve(__dirname, "build", "index.html"))
-);
 
 const { User } = require("./model/user");
 const { isAuth, santitizeUser, cookieExtractor } = require("./services/common");
