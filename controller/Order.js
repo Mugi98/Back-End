@@ -59,7 +59,7 @@ exports.createOrder = async (req, res) => {
     const user = await User.findById(order.user);
     // we can use await for this also
     sendMail({
-      to: user.email,
+      to: order.selectedAddress.email,
       html: invoiceTemplate(order),
       subject: "Order Received",
     });
