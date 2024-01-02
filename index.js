@@ -24,7 +24,7 @@ const orderRouter = require("./routes/Order");
 const paymentRouter = require("./routes/Payment");
 const wishlistRouter = require("./routes/Wishlist");
 server.get("*", (req, res) =>
-  res.sendFile(path.resolve("build", "index.html"))
+  res.sendFile(path.resolve(__dirname, "build", "index.html"))
 );
 
 const { User } = require("./model/user");
