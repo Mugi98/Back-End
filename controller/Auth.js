@@ -74,7 +74,10 @@ exports.resetPasswordRequest = async (req, res) => {
     user.resetPasswordToken = randomToken;
     await user?.save();
     const resetPageLink =
-      "/reset-password?token=" + randomToken + "&email=" + email;
+      "https://back-end-sooty-nu.vercel.app/reset-password?token=" +
+      randomToken +
+      "&email=" +
+      email;
     const subject = "Reset passwword for YN-Ecommerce";
     const html = `<p>Click <a href=${resetPageLink}>here</a> to reset you password.</p>`;
     if (email) {
